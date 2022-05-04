@@ -5,7 +5,9 @@ Enjoy!
 # how to deploy
 Upload all files into a replit Node.js project.
 Run index.js.
-Copy link on the top right.
+Copy url on the top right.
 Create a project in App Script.
-paste in the code in 
+Paste codes in appScript.txt in to the project you created.
+Fill in the url you copied from replit.
 Set a trigger.
+Enjoy!
