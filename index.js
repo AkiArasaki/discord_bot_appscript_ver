@@ -60,8 +60,7 @@ class Music {
             //add track into queue
             this.queue.push({
                 name: info.title,
-                url: musicURL,
-                stream: ytdl(musicURL, { filter: 'audioonly' })
+                url: musicURL
             });
             //if there is track playing, add new track into queue, otherwise play track
             if (this.isPlaying) {
@@ -92,7 +91,7 @@ class Music {
                     .setTimestamp()
             ]});
         //play track
-        this.player.play(createAudioResource(musicInfo.stream));
+        this.player.play(createAudioResource(ytdl(musicInfo.url, { filter: 'audioonly' })));
         //remove track from queue
         this.queue.shift();
         //even after playing a track
