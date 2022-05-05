@@ -23,7 +23,6 @@ app.listen(3000, () => {
 class Music {
     isPlaying = false;
     connection = null;
-    stream = null;
     queue = [];
     player = createAudioPlayer();
     //join
@@ -92,8 +91,7 @@ class Music {
                     .setTimestamp()
             ]});
         //play track
-        this.stream = ytdl(musicInfo.url, { filter: 'audioonly' });
-        this.player.play(createAudioResource(this.stream));
+        this.player.play(createAudioResource(ytdl(musicInfo.url, { filter: 'audioonly' })));
         //remove track from queue
         this.queue.shift();
         //even after playing a track
