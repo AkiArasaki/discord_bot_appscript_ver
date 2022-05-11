@@ -91,12 +91,11 @@ class Music {
                     .setTimestamp()
             ]});
         //play track
-        this.player.stop();
         this.player.play(createAudioResource(ytdl(musicInfo.url, { filter: 'audioonly' })));
         //remove track from queue
         this.queue.shift();
         //even after playing a track
-        this.player.on(AudioPlayerStatus.Idle, () => {
+        this.player.on("idle", async () => {
             //if there are tracks in queue
             if (this.queue.length > 0) {
                 this.playMusic(msg, guildID, this.queue[0]);
