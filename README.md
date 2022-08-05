@@ -1,7 +1,6 @@
 # discord_bot_appscript_ver
-This is a discord music bot based on discord.js V13.
+This is a discord music bot based on discord.js.<br>
 You can easily make this version of bot 7 * 24 with Repl.it and Google App Script.
-Enjoy!
 # how to deploy
 Upload all files into a replit Node.js project except appScript.txt.<br>
 Run index.js.<br>
