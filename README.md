@@ -11,3 +11,6 @@ Paste codes in appScript.txt in to the project you created.
 Fill in the url you copied from replit.
 Set a trigger.
 Enjoy!
+# updates
+Update to discord.js V13<br>
+Update to discord.js V14
