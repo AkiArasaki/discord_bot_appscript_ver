@@ -12,4 +12,5 @@ Set a trigger.<br>
 Enjoy!
 # updates
 Update to discord.js V13<br>
-Update to discord.js V14
+Update to discord.js V14<br>
+Change download engine to play-dl
