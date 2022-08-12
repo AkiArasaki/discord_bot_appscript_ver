@@ -13,4 +13,5 @@ Enjoy!
 # updates
 Update to discord.js V13<br>
 Update to discord.js V14<br>
-Change download engine to play-dl
+Change download engine to play-dl<br>
+Support multiple servers
