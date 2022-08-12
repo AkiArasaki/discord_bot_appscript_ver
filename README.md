@@ -1,6 +1,15 @@
 # discord_bot_appscript_ver
 This is a discord music bot based on discord.js.<br>
 You can easily make this version of bot 7 * 24 with Repl.it and Google App Script.
+# command list
+${prefix}p - play music by url<br>
+${prefix}s - search music by keywords<br>
+${prefix}resume - resume music from playing<br>
+${prefix}pause - pause music from playing<br>
+${prefix}skip - skip current track<br>
+${prefix}queue - view queue<br>
+${prefix}leave - make bot leave voice channel<br>
+${prefix}help - show command list
 # how to deploy
 Upload all files into a replit Node.js project except appScript.txt.<br>
 Run index.js.<br>
@@ -14,4 +23,5 @@ Enjoy!
 Update to discord.js V13<br>
 Update to discord.js V14<br>
 Change download engine to play-dl<br>
-Support multiple servers
+Support multiple servers<br>
+New Function, search music by key words
