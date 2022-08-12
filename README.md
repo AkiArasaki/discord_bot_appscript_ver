@@ -12,6 +12,7 @@ ${prefix}leave - make bot leave voice channel<br>
 ${prefix}help - show command list
 # how to deploy
 Upload all files into a replit Node.js project except appScript.txt.<br>
+Fill in your bot token<br>
 Run index.js.<br>
 Copy url on the top right.<br>
 Create a project in App Script.<br>
