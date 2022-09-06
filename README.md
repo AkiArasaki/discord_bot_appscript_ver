@@ -1,4 +1,4 @@
-***This Method does not work anymore, you can still deploy it on replit, but make it 7*24 by setting the repl always on***<br>
+***This Method does not work anymore, you can still deploy it on replit, but make it 7 * 24 by setting the repl always on***<br>
 # discord_bot_appscript_ver
 This is a discord music bot based on discord.js.<br>
 You can easily make this version of bot 7 * 24 with Repl.it and Google App Script.
