@@ -1,5 +1,5 @@
 ***Appscript does not help anymore, you can still deploy it on replit, but make it 7 * 24 by setting the repl always on***<br>
-***Futher updates here https://github.com/AkiArasaki/discord_music_bot***<br>
+***Further updates here https://github.com/AkiArasaki/discord_music_bot***<br>
 # discord_bot_appscript_ver
 This is a discord music bot based on discord.js.<br>
 You can easily make this version of bot 7 * 24 with Repl.it and Google App Script.
